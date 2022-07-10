@@ -1,7 +1,68 @@
-.attribution {
-	font-size: 11px;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(30, 38%, 92%);
+	/* font-family: "Fraunces", serif;
+	font-family: "Montserrat", sans-serif; */
+	height: 100vh;
+	width: 100vh;
+	background-color: yellow;
+}
+
+.outer-box {
+	width: 1500px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.container {
+	grid-template-columns: 300px 1fr;
+	width: 600px;
+	background-color: blue;
+}
+
+.content {
+	background-color: red;
+}
+
+.product-img {
+	height: 400px;
+	width: 400px;
+}
+
+.perfume-title {
+}
+
+.product-title {
+}
+
+.product-description {
+	font-size: 14px;
+}
+
+.prices {
+}
+
+.normal-price {
+}
+
+.crossed-price {
+}
+
+.cart-button {
+}
+
+/* .attribution {
+  font-size: 11px;
 	text-align: center;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
-}
+  color: hsl(228, 45%, 44%);
+} */
